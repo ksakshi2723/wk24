@@ -1,0 +1,28 @@
+
+<div class="container">
+    <div class="row" stle="padding-top:100px;">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <form>
+                
+                <h1 class="h3 mb-3 fw-normal "> sign in</h1>
+            
+                <div class="form-floating ">
+                  <input type="email" class="form-control" id="floatingInput" pattern="[^ @]*@[^ @]*" placeholder="name@example.com">
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+            
+                
+                <button (click)="login()" class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                
+              </form>
+        </div>
+        <div class="col-md-4">
+            
+        </div>
+    </div>
+</div>
